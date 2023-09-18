@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AJAY's STOPWATCH</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- full Display to be shown in the webpage -->
+    <div class="fullDisplay">
+
+
+        <!-- title of the stopwatch -->
+        <h1 style="font-size: 5rem; margin-bottom: 30px ;font-family: fantasy; letter-spacing: 2px; margin-top: -110px; padding-bottom: 50px;" >AJAY's STOPWATCH</h1>
+
+        <!-- timer display part -->
+        <div id="stopwatch" style="width: 700px; text-align: center;">
+            00:00:00
+        </div>
+
+        <!-- for buttons (start,stop,reset) -->
+        <div id="buttons">
+            <button onclick="startTime()">Start</button>
+            <button onclick="stopTime()">Stop</button>
+            <button onclick="resetTime()">Reset</button>
+        </div>
+    </div>
+
+    <!-- JavaScript linking -->
+    <script src="index.js"></script>
+</body>
+</html>
